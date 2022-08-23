@@ -1,0 +1,54 @@
+{%  load static  %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> El Tiempo | El Periodico mundial </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <div class="titleElEspectador">
+        <div><div><svg class="Header-seeker" viewBox="0 0 2031 1024" style="display: inline-block; stroke: currentcolor; fill: currentcolor;"><path d="M840.385 270.967h-777.632c-34.657 0-62.753-28.095-62.753-62.753v0c0-34.657 28.095-62.753 62.753-62.753v0h777.632c34.657 0 62.753 28.095 62.753 62.753v0c0 34.657-28.095 62.753-62.753 62.753v0z"></path><path d="M840.385 647.483h-777.632c-34.657 0-62.753-28.095-62.753-62.753v0c0-34.657 28.095-62.753 62.753-62.753v0h777.632c34.657 0 62.753 28.095 62.753 62.753v0c0 34.657-28.095 62.753-62.753 62.753v0z"></path><path d="M1209.121 1024h-1146.368c-34.657 0-62.753-28.095-62.753-62.753v0c0-34.657 28.095-62.753 62.753-62.753v0h1146.368c34.657 0 62.753 28.095 62.753 62.753v0c0 34.657-28.095 62.753-62.753 62.753v0z"></path><path d="M1477.012 0c213.802-0 387.122 173.32 387.122 387.122s-173.32 387.122-387.122 387.122c-213.802 0-387.122-173.32-387.122-387.122l0 0c0.25-213.701 173.421-386.872 387.098-387.122l0.024-0zM1477.012 661.289c151.418 0 274.167-122.749 274.167-274.167s-122.749-274.167-274.167-274.167c-151.418 0-274.167 122.749-274.167 274.167v0c0.179 151.347 122.821 273.989 274.15 274.167l0.017 0z"></path><path d="M1974.705 952.274c-15.59-0.014-29.699-6.343-39.91-16.566l-0.001-0.001-269.837-269.523c-10.224-10.221-16.548-24.343-16.548-39.942s6.324-29.721 16.548-39.942l0-0c10.221-10.224 24.343-16.548 39.942-16.548s29.721 6.324 39.942 16.548l0 0 269.837 269.523c10.243 10.224 16.58 24.359 16.58 39.974 0 31.192-25.286 56.478-56.478 56.478-0.027 0-0.053-0-0.080-0l0.004 0z"></path></svg></div></div>
+        <div><img class="titleImage" src="{% static 'images/download.jpg' %}" ></div>
+        <div>
+            <div class="BtnAndSvg">
+                <button>Susbribete</button>
+                <button style="background-color: rgb(0, 132, 255);">Iniciar seccion</button>
+             </div>
+        </div>
+    </div>
+    <div class="content-primary">
+        <nav>
+            <div class="cointanerNav"><ul><li><a href="/">Inicio</a></li></ul></div>
+            <div class="cointanerNav"><ul><li><a href="/opinion">Opinion</a></li></ul></div>
+            <div class="cointanerNav"><ul><li><a href="/mundo">Mundo</a></li></ul></div>
+            <div class="cointanerNav"><ul><li><a href="/contacto">Contacto</a></li></ul></div>
+        </nav>
+        <hr>
+    </div>
+    <div  id='content'>
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+
+
+    <footer style=" display: flex; gap: 2rem; justify-content: center; align-items: center; border-top: 1px solid rgba(121, 121, 121, 0.308); border-bottom: 1px solid rgba(121, 121, 121, 0.308); width: 100%; height: 250px; ">
+        <div>
+            <hr style="margin-top: -50px; margin-right: -px; width: 1340px; height: 3px; background-color: rgb(0, 81, 255); ">
+            <div>
+                <a href="/"><img src="{% static 'images/download.jpg' %}" width="130px" height="30px" style="margin-top: 40px; margin-left: 150px; border-right: 3px solid rgb(0, 140, 255); padding-right: 40px;">
+                </a>
+            </div>
+            <div style="width:800px; padding: 30px; margin-left: 350px; margin-top: -70px;">
+                <p>COPYRIGHT © 2022 EL TIEMPO Casa Editorial NIT. 860.001.022-7 . Prohibida su reproducción total o parcial, así como su traducción a cualquier idioma sin autorización escrita de su titular. ELTIEMPO.com todas las noticias principales de Colombia y el Mundo.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- <b>Juan Camilo (*^▽^*)</b>-->
+</body>
+</html>

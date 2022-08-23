@@ -1,0 +1,58 @@
+{% extends 'Layout.html' %}
+{%  load static  %}
+
+
+{% block content %}
+
+
+
+<div style="padding: 70px;"> 
+    <h2 style="font-size: 20px; margin-top: 5px; padding: 0 0 0 10px; color: red;">Noticia principal</h2>
+    <h2 style="font-size: 35px; margin-top: 5px; padding: 0 0 0 10px;">La viruela símica </h2>
+    <p style=" margin-left: 10px; font-size: 20px; margin-top: 5px; text-align: justify; margin-right: 25px;" >La viruela símica es una enfermedad causada por el virus de la viruela símica. Se trata de una infección zoonótica vírica, lo que significa que puede propagarse de animales a seres humanos. También puede propagarse de persona a persona.</p>
+    <img style="margin-left: 100px; width: 930px; margin-top: 30px; margin-bottom: 40px;" src="{% static 'images/enfermera.png' %}" alt="">
+</div>
+
+<div style="margin-top: -110px; padding: 100px; display: flex; justify-content: center; align-items: center; gap: 20px; ">
+    <div style="display: flex; flex-direction: column; gap: 10px;"> 
+        <h5 style="color: rgb(0, 162, 255); font-size: 30px;">Sintomas</h5>
+        <p style="font-size: 19px;">Los síntomas más comunes de la viruela símica son fiebre, cefalea, dolores musculares, dolor de espalda, falta de energía y ganglios linfáticos inflamados. A estos síntomas les sigue o acompaña una erupción que puede durar de dos a tres semanas. La erupción se puede ubicar en la cara, las palmas de las manos, las plantas de los pies, los ojos, la boca, el cuello, la ingle y las regiones genitales o anales del cuerpo. El número de lesiones puede oscilar entre unas pocas y varios miles. Al principio, las lesiones son planas, luego se llenan de líquido y, a continuación, se forman costras, se secan y se desprenden, y por debajo se forma una capa nueva de piel.  </p>
+    </div><div><img style="width: 600px;" src="{% static 'images/tos.jpg' %}" alt=""></div>
+</div>
+<div style="margin-top: -100px; padding: 70px;"> 
+    <h2 style="color:rgb(0, 162, 255);font-size: 35px; margin-top: 5px; padding: 0 0 0 10px;">Como se puede contagiar?</h2>
+    <p style="margin-left: 10px; font-size: 20px; margin-top: 5px; text-align: justify; margin-right: 25px;" >La viruela símica se propaga de persona a persona mediante contacto directo con alguien que tiene una erupción cutánea de viruela símica, en particular mediante contacto cara con cara, piel con piel, boca con boca o boca con piel, incluido el contacto sexual. Todavía estamos aprendiendo sobre la duración de la capacidad infectante de las personas con viruela símica, pero por lo general se consideran infecciosas hasta que todas las lesiones se han cubierto de costras, las costras se han caído y se ha formado una nueva capa de piel debajo. </p>
+</div>
+
+<div style="margin-right: -73px; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.552); width: 100%; height: auto; padding: 5px;" >
+    <h2 style="font-size: 20px; margin-top: 15px; padding: 0 0 0 10px; color: red;">Noticia secundaria</h2>
+    <div style="padding: 100px" > 
+        <h2 style="font-size: 35px; margin-top: -85px; padding: 0 0 0 10px;" >Marvel studios esta preparando algo grande</h2>
+        <p style="margin-left: 10px; font-size: 20px; margin-top: 5px; text-align: justify;" > A través de las redes sociales como Instagram, Facebook y Twitter se ha revelado las siguientes peliculas con mas hype hay en la historia de el cine, para los amantes de los super heroes</p>
+        
+
+        <img style="width: 100%; margin-top: 30px;" src="{% static 'images/dario.webp' %}" alt="">
+    </div>
+    <div style="margin-top: -70px; display:flex; justify-content: center; gap: 20px; ">
+        <div style="padding: 7px; width: 350px;"> 
+            <img style="width: 350px;" src="{% static 'images/dinasty.png' %}" alt="">
+            <h3 style="color: rgb(0, 162, 255);" >Avengers the kang dinasty</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus excepturi placeat, consectetur aliquam sint molestiae.</p>
+            <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 1 dia</p>
+        </div>
+        <div class="ContentInterests" style="width: 350px;">
+            <img style="width: 320px;" src="{% static 'images/forever.png' %}" alt="">
+            <h3 style="color: rgb(0, 162, 255);" >Black panter Wakanda forever</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cumque harum reprehenderit optio fugit odio?</p>
+            <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 1 dia</p>
+        </div>
+        <div class="ContentInterests" style="width: 350px;">
+            <img style="width: 340px;" src="{% static 'images/secret.png' %}" alt="">
+            <h3 style="color: rgb(0, 162, 255);" >Avengers secret wars</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi error sunt similique laborum facere repudiandae blanditiis!</p>
+            <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 1 dia</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

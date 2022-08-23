@@ -1,0 +1,62 @@
+{% extends 'Layout.html' %}
+{%  load static  %}
+
+
+{% block content %}
+
+
+<div style="margin-top: -30px; padding: 100px; display: flex; justify-content: center; align-items: center; gap: 20px; ">
+    <div><img style="width: 600px;" src="{% static 'images/opinion2.jpg' %}" alt=""></div>
+    <div style="display: flex; flex-direction: column; gap: 10px;"> 
+        <h5 style="color: rgb(0, 162, 255); font-size: 30px;">Editorial</h5>
+        <h2>Preferible el silencio que la cacofonía de anuncios</h2>
+        <p style="font-size: 20px;"> Lanzar ideas al aire solo fomenta la incertidumbre que tiene a una porción de la población, y a los mercados, con temores...</p>
+        <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 1 Hora</p>
+    </div>
+</div>
+
+
+
+<div style="margin-top: -30px; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.552); width: 100%; height: auto; padding: 5px;" >
+    <div style="padding: 100px" > 
+        <h2 style="font-size: 35px; margin-top: -45px; padding: 0 0 0 10px;" >El país está preparado</h2>
+        <p style="margin-left: 10px; font-size: 20px; margin-top: 5px; text-align: justify;" > Colombia tiene cómo enfrentar la viruela del mono, en la que son claves las lecciones del covid.</p>
+        <br><br><br>
+        <h2 style="font-size: 35px; margin-top: -45px; padding: 0 0 0 10px;" >Mensaje muy equivocado</h2>
+        <p style="margin-left: 10px; font-size: 20px; margin-top: 5px; text-align: justify;" > La oleada de muerte es la manera por parte de los criminales de enviar un mensaje al nuevo gobierno.</p>
+        
+        <img style="width: 100%; margin-top: 30px;" src="{% static 'images/dario.webp' %}" alt="">
+    </div>
+    <div style="margin-top: -70px; display:flex; justify-content: center; gap: 20px; ">
+        <div style="padding: 7px; width: 350px;"> 
+            <img style="width: 350px;" src="{% static 'images/covid.jpg' %}" alt="">
+            <h3 style="color: rgb(0, 162, 255);" >Lorem ipsum dolor sit.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus excepturi placeat, consectetur aliquam sint molestiae.</p>
+            <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 45 Minutos</p>
+        </div>
+        <div class="ContentInterests" style="width: 350px;">
+            <img style="width: 350px;" src="{% static 'images/criminal.jpg' %}" alt="">
+            <h3 style="color: rgb(0, 162, 255);" >Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cumque harum reprehenderit optio fugit odio?</p>
+            <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 2 Hora</p>
+        </div>
+        <div class="ContentInterests" style="width: 350px;">
+            <img src="{% static 'images/destacados2.jpg' %}" alt="">
+            <h3 style="color: rgb(0, 162, 255);" >Lorem, ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi error sunt similique laborum facere repudiandae blanditiis!</p>
+            <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 3 Hora</p>
+        </div>
+    </div>
+</div>
+
+<div style="margin-top: -30px; padding: 100px; display: flex; justify-content: center; align-items: center; gap: 20px; ">
+    <div style="display: flex; flex-direction: column; gap: 10px;"> 
+        <h5 style="color: rgb(0, 162, 255); font-size: 30px;">Avances</h5>
+        <h2>Jugar videouegos ha sido una nueva manera para mejorar la salud</h2>
+        <p style="font-size: 20px;">Al jugar lo video juegos se esta fortaleciendo algunas de nuestras gabilidades motoras de nueestro cuerp, mejorando nuestros reflejos en gran mayoria...</p>
+        <p style="margin-top: 5px; color: gray; font-family: Arial, Helvetica, sans-serif; font-size: 13px; ">Hace 1 Hora</p>
+    </div><div><img style="width: 600px;" src="{% static 'images/juegos.jpg' %}" alt=""></div>
+</div>
+
+
+{% endblock %}

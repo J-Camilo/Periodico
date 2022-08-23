@@ -1,0 +1,38 @@
+{% extends 'Layout.html' %}
+{%  load static  %}
+
+
+
+
+{% block content %}
+
+
+<div class="FeaturedSeccion"> 
+    <div class="newsOne">
+        <div class="cajon5">
+            <div style="margin-left: 240px; display: flex; flex-direction:column; justify-content: center; align-items: center;" class="formulario">  
+                <h2  class="texto-inicial">Contactanos</h2><br>
+                <p class= "input-"> Nombre </p>
+                <input style =" width: 500px; height: 30px;" class="input-2" placeholder="Ingrese su nombre"type="text"><br>
+                <p class= "input-"> Email</p>
+                <input style =" width: 500px; height: 30px;" class="input-2" placeholder="Ingrese su correo"type="Email"><br>
+                <p class= "input-"> Telefono</p>
+                <input style =" width: 500px; height: 30px;" class="input-2" placeholder="Ingrese tu telefono"type="num"><br>
+                <p class= "input-"> Celular</p>
+                <input style =" width: 500px; height: 30px;" class="input-2" placeholder="Ingrese tu celular"type="celular"><br>
+                <p class= "input-"> Mensaje</p>
+                <TExtarea style ="  border-bottom: 3px solid rgb(10, 10, 10); border-top: #fff; border-left: #fff; border-right: #fff;" class="input-3" name="" id="" cols="91" rows="9"></TExtarea>
+            </div><br>
+            <button class="enviar"> Enviar</button><br><br><br>
+        </div>
+    </div>
+    <div class="map-responsive">
+        <!-- Incluir aquí el iframe copiado de Google -->
+        <iframe style ="margin-left: -10px; border-radius: 10px;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15922.76276485579!2d-77.02190145!3d3.8763492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1658875057440!5m2!1ses-419!2sco" width="1200" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div>
+</div>
+    
+
+        
+{% endblock %}
+
